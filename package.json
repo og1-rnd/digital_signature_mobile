@@ -9,8 +9,8 @@
     "start": "react-native start",
     "test": "jest",
     "pod": "cd ios && pod install",
-    "bundleRelease": "cd android && ./gradlew clean && ./gradlew bundleRelease",
-    "assembleRelease": "cd android && ./gradlew clean && ./gradlew assembleRelease"
+    "BR": "cd android && ./gradlew clean && ./gradlew bundleRelease",
+    "AR": "cd android && ./gradlew clean && ./gradlew assembleRelease"
   },
   "dependencies": {
     "@ethersproject/shims": "^5.7.0",
